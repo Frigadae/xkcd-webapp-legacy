@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const getAPI = axios.create({
-    baseURL: "https://backendfunction.azurewebsites.net/api/httpTrigger",
+    baseURL: "http://localhost:5000/getData",
     headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
