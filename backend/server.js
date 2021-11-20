@@ -24,10 +24,11 @@ app.get('/getData', cors(corsOptions), async (req, res) => {
     if (suppliedUrl == null || suppliedUrl == "") {
         const jsonResponse = {
             "name":"getData",
-            "about":"getData sends a fetch request to the url given and receives a JSON back.",
+            "about":"getData sends a fetch request to the url of an API given and receives a JSON back.",
             "param":"A url link",
-            "return":"A JSON object",
-            "notes":"You are receiving this JSON because no url is given in the query. Please give a url link."
+            "returns":"A JSON object",
+            "notes":"You are receiving this JSON because no url is given in the query. Please give a url link.",
+            "example":"http://localhost:3000/getData?url=https://xkcd.com/info.0.json",
         };
         res.json(jsonResponse);
     } else {
