@@ -1,7 +1,8 @@
 # About this Project
 
-## NOTICE
-**THIS IS THE PREDEPLOYMENT VERSION OF THE XKCD COMIC SEARCH WEBAPP PUBLISHED [HERE](https://github.com/wang-yi-yao/xkcdWebapp).**
+## Info
+**This is the predeployment version of the XKCD webapp. This comes with localhost links and a backend server script.** 
+**For the deployed version, click [here](https://github.com/wang-yi-yao/xkcdWebapp).**
 
 ## Background
 I built this project after attending a Summer Of Tech event which showcases how Vue.js web apps can be used to communicate with APIs via the internet.\

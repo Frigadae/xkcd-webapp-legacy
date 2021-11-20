@@ -38,7 +38,7 @@ class Main extends React.Component {
         }
         
         console.log(`Number entered: ${this.state.searchNum}`);
-        if (this.state.searchNum === 0 || this.state.searchNum === null) {
+        if (this.state.searchNum == 0 || this.state.searchNum === null) {
             const image = await getAPI.get(`?url=https://xkcd.com/info.0.json`)
             .then(response => {
             console.log(response.data);
