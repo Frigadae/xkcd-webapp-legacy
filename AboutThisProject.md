@@ -1,20 +1,13 @@
 # About this Project
 
 ## Info
-**This is the predeployment version of the XKCD webapp. This comes with localhost links and a backend server script.** 
-**For the deployed version, click [here](https://github.com/wang-yi-yao/xkcdWebapp).**
 
-## Background
-I built this project after attending a Summer Of Tech event which showcases how Vue.js web apps can be used to communicate with APIs via the internet.\
-(Hello Wildeye! Thank you for Javascript and the IoT lecture!)
+This is holds the legacy code of the XKCD Webapp I built. Included in this project includes a backend script and code for class-based components.
+The deployed version has the component rewritten into functional components as it is easier to set up and maintain. 
 
-Before this, I was aware of the existence of React.js but never really understood it or bothered to give it a try.
-I now have a basic understanding of React.js. The Javascript code takes the HTML code and "renders" it onto the browser page.
-This project is not perfect, but it is a good start.
 
-I had always enjoyed browsing XKCD comics. It's filled with science jokes and presented in a simple visual format.
-Although the XKCD website keeps an archive with the titles displayed. It would be nice to search for a comic instead of browsing the archive.
-While numbers are harder to remember than titles, it does make the searching easier.
+**For the deployed version, [refer to this repo](https://github.com/wang-yi-yao/xkcdWebapp).**
+
 
 ## How to start this web app
 This React app requires a backend server to access the API. Without it the CORS policy in the browser blocks the fetch requests.
